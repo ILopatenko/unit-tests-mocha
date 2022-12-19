@@ -1,0 +1,28 @@
+{
+   "dependencies": {
+      "chai": "^4.3.7",
+      "mocha": "^10.2.0"
+   },
+   "name": "unit-tests-mocha",
+   "description": "unit-tests-mocha",
+   "version": "1.0.0",
+   "main": "index.js",
+   "devDependencies": {},
+   "scripts": {
+      "test": "npx mocha onTest/**/*.solution.spec.js",
+      "currentHelper": "npx mocha onTest/**/*.helper.spec.js",
+      "mainHelper": "npx mocha _helper/MainHelper.spec.js",
+      "justTest": "npx mocha justTest.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ILopatenko/unit-tests-mocha.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/ILopatenko/unit-tests-mocha/issues"
+   },
+   "homepage": "https://github.com/ILopatenko/unit-tests-mocha#readme"
+}
